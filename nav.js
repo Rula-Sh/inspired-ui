@@ -7,7 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="container" id="carousels-container">
         <span class="title" id="carousels-title">Carousels</span>
         <ul id="carousels-list">
-          
+          <a href="/carousels/3d-carousel/">
+            <li>3D Carousel</li>
+          </a>
         </ul>
       </div>
       <div class="container" id="animations-container">

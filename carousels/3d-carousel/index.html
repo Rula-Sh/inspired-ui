@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Carousel</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../nav.css" />
+  </head>
+  <body>
+    <div class="page-content">
+      <h1 class="page-title">OUR TEAM</h1>
+
+      <div class="carousel-container">
+        <button class="nav-arrow left">
+          <img src="images/prev_icon.png" alt="" />
+        </button>
+        <div class="carousel-track">
+          <div class="card" data-index="5">
+            <img src="images/michel-steward.png" alt="" />
+          </div>
+          <div class="card" data-index="4">
+            <img src="images/emma-rodriguez.png" alt="" />
+          </div>
+          <div class="card" data-index="3">
+            <img src="images/sarah-smith.png" alt="" />
+          </div>
+          <div class="card" data-index="2">
+            <img src="images/james-wilson.png" alt="" />
+          </div>
+          <div class="card" data-index="1">
+            <img src="images/julia-kim.png" alt="" />
+          </div>
+          <div class="card" data-index="0">
+            <img src="images/david-gimmel.png" alt="" />
+          </div>
+        </div>
+        <button class="nav-arrow right">
+          <img src="images/next_icon.png" alt="" />
+        </button>
+      </div>
+
+      <div class="member-info">
+        <h2 class="member-name">David Gimmel</h2>
+        <p class="member-role">Founder</p>
+      </div>
+
+      <div class="dots">
+        <div class="dot active" data-index="0"></div>
+        <div class="dot" data-index="1"></div>
+        <div class="dot" data-index="2"></div>
+        <div class="dot" data-index="3"></div>
+        <div class="dot" data-index="4"></div>
+        <div class="dot" data-index="5"></div>
+      </div>
+    </div>
+
+    <small class="credit">
+      Inspired by:
+      <a href="https://www.youtube.com/watch?v=jR29wFSTeYM" style="color: inherit">
+        M - SoftTech
+      </a>
+    </small>
+
+    <script src="script.js"></script>
+    <script src="../../nav.js"></script>
+  </body>
+</html>
