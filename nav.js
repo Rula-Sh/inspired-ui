@@ -18,6 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
           <a href="/animations/border-hover/">
             <li>Border Hover</li>
           </a>
+          <a href="/animations/card-hover/">
+            <li>Card Hover</li>
+          </a>
         </ul>
       </div>
     </nav>
