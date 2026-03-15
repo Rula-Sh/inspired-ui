@@ -21,6 +21,9 @@ document.addEventListener("DOMContentLoaded", function () {
           <a href="/animations/card-hover/">
             <li>Card Hover</li>
           </a>
+          <a href="/animations/rotating-border/">
+            <li>Rotating Border</li>
+          </a>
         </ul>
       </div>
     </nav>
