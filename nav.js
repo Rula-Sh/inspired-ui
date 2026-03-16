@@ -10,6 +10,9 @@ document.addEventListener("DOMContentLoaded", function () {
           <a href="/carousels/3d-carousel/">
             <li>3D Carousel</li>
           </a>
+          <a href="/carousels/draggable-carousel/">
+              <li>Draggable Carousel</li>
+          </a>
         </ul>
       </div>
       <div class="container" id="animations-container">
