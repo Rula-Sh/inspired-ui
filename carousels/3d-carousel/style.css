@@ -204,12 +204,3 @@
   right: 20px;
   padding-left: 3px;
 }
-
-.credit {
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-  z-index: 100;
-  opacity: 0.5;
-  font-size: 12px;
-}
