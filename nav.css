@@ -1,32 +1,24 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  overflow: hidden;
-  background-color: #e3f2fd;
-}
+  margin: 60px 0 0;}
 
 nav {
   display: flex;
   justify-content: start;
   align-items: center;
-  height: 70px;
+  height: 60px;
   background-color: #87b7d3;
   width: 100vw;
   box-sizing: border-box;
   padding: 0 0 0 20px;
   gap: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-radius: 0 0 10px 10px;
-  border: white 2px solid;
-  border-style: none none solid none;
   color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  line-height: normal;
 }
 
 #carousels-container,
@@ -63,7 +55,6 @@ ul {
 #animations-list {
   position: absolute;
   display: none;
-  z-index: 100;
 }
 
 li {
@@ -71,7 +62,7 @@ li {
   color: white;
 }
 
-a {
+ul a {
   text-decoration: none;
   white-space: nowrap;
 }
