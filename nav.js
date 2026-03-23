@@ -16,6 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
           <a href="/carousels/infinite-auto-scroll-carousel/">
               <li>Infinite Auto Scroll Carousel</li>
           </a>
+          <a href="/carousels/scroll-carousel/">
+            <li>Scroll Carousel</li>
+          </a>
         </ul>
       </div>
       <div class="container" id="animations-container">

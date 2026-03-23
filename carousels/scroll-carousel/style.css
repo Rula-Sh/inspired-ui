@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  padding: 0 calc(50vw - 150px); /* to center the carousel */
+  overflow-x: scroll; /* keyboard navigation works automatically */
+  scroll-snap-type: x mandatory; /* forces snapping to items / scroll snap -> a css feature that controls scroll positioning */
+  scrollbar-width: none;
+}
+
+.item {
+  height: 400px;
+  width: 300px;
+  flex: 0 0 300px; /* fixed width, no shrinking/growing */
+  border-radius: 20px;
+  scroll-snap-align: center; /* items snap to center of container */
+  animation: pop-in linear both;
+  animation-timeline: view(x); /* makes the animation tied to scroll position */
+}
+
+@keyframes pop-in {
+  0% {
+    transform: scale(0.5) rotate(-10deg);
+    opacity: 0.3;
+  }
+
+  50% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0.5) rotate(10deg);
+    opacity: 0.3;
+  }
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../main.css" />
+    <link rel="stylesheet" href="../../nav.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Scroll Carousel</title>
+  </head>
+  <body>
+    <div class="carousel">
+      <img class="item" src="../../images/nature/mountains/1.png" alt="" />
+      <img class="item" src="../../images/nature/mountains/2.png" alt="" />
+      <img class="item" src="../../images/nature/mountains/3.png" alt="" />
+      <img class="item" src="../../images/nature/mountains/4.png" alt="" />
+      <img class="item" src="../../images/nature/mountains/5.png" alt="" />
+    </div>
+
+    <small class="credit">
+      Inspired by:
+      <a
+        href="https://web.facebook.com/reel/894779239918646"
+        style="color: inherit"
+      >
+        Dark CSS
+      </a>
+    </small>
+
+    <script src="../../nav.js"></script>
+    <script>
+      const carousel = document.querySelector(".carousel");
+      // listen for carousel scroll events
+      carousel.addEventListener("wheel", (e) => {
+        e.preventDefault(); // prevent scrolling vertically
+        carousel.scrollBy({
+          // .scrollBy tells the carousel element to scroll by a certain amount
+          left: e.deltaY, // e.deltaY: Use the vertical scroll amount (deltaY) to scroll horizontally (down(+) => right / up(-) => left)
+          behavior: "smooth", // adds smooth animation
+        });
+      });
+    </script>
+  </body>
+</html>
