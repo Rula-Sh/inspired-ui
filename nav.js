@@ -19,6 +19,9 @@ document.addEventListener("DOMContentLoaded", function () {
           <a href="/carousels/scroll-carousel/">
             <li>Scroll Carousel</li>
           </a>
+          <a href="/carousels/slide-carousel/">
+            <li>Slide Carousel</li>
+          </a>
         </ul>
       </div>
       <div class="container" id="animations-container">
