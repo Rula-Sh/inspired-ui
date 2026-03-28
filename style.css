@@ -1,10 +1,6 @@
 body {
-  min-height: 100vh;
-  font-family: "Segoe UI", Roboto, Oxygen;
-  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #00c6fb 100%);
-  color: #333;
   overflow-y: scroll;
-  line-height: 1.6;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #00c6fb 100%);
 }
 
 main {
@@ -70,9 +66,6 @@ main {
   opacity: 0.8;
 }
 
-.featured-projects {
-}
-
 .featured-projects h1,
 .carousels h1,
 .animations h1 {
@@ -112,117 +105,13 @@ main {
 }
 
 .project-preview {
-  height: 200px;
-  position: relative;
-  background: linear-gradient(45deg, #e0f2fe, #bae6fd);
-  overflow: hidden;
+  width: 100%;
+  object-fit: cover;
 }
 .carousels .project-preview,
 .animations .project-preview {
   height: 150px;
 }
-/* -------------------------------------------------------- */
-/* -------------------------------------------------------- */
-/* -------------------------------------------------------- */
-.preview-3d {
-  background: linear-gradient(135deg, #1e3c72, #2a5298, #00c6fb);
-}
-.preview-3d::after {
-  content: "3D";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.5);
-}
-.preview-draggable {
-  background: linear-gradient(135deg, #2a5298, #00c6fb, #7dd3fc);
-}
-.preview-draggable::after {
-  content: "↔️";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-}
-.preview-infinite {
-  background: linear-gradient(135deg, #1e3c72, #0284c7, #7dd3fc);
-}
-.preview-infinite::after {
-  content: "∞";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  color: rgba(255, 255, 255, 0.5);
-}
-.preview-scroll {
-  background: linear-gradient(135deg, #0369a1, #0284c7, #38bdf8);
-}
-.preview-scroll::after {
-  content: "⇅";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  color: rgba(255, 255, 255, 0.5);
-}
-.preview-slide {
-  background: linear-gradient(135deg, #075985, #0e7490, #22d3ee);
-}
-.preview-slide::after {
-  content: "⏩";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  color: rgba(255, 255, 255, 0.5);
-}
-.preview-border {
-  background: linear-gradient(135deg, #0c4a6e, #0369a1, #0284c7);
-}
-.preview-border::after {
-  content: "◈";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  color: rgba(255, 255, 255, 0.5);
-}
-.preview-card {
-  background: linear-gradient(135deg, #155e75, #0369a1, #0ea5e9);
-}
-.preview-card::after {
-  content: "⬜";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  color: rgba(255, 255, 255, 0.5);
-}
-.preview-rotating {
-  background: linear-gradient(135deg, #164e63, #155e75, #0284c7);
-}
-.preview-rotating::after {
-  content: "↻";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  color: rgba(255, 255, 255, 0.5);
-}
-/* -------------------------------------------------------- */
-/* -------------------------------------------------------- */
-/* -------------------------------------------------------- */
 
 .project-info {
   padding: 24px;
