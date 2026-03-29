@@ -20,8 +20,7 @@
 }
 #slides {
   padding: 10px;
-  border: 3px solid #ccc;
-  background: #fff;
+  border: 3px solid #fff;
   position: relative;
   z-index: 1;
 }
@@ -106,14 +105,14 @@
   width: 12px;
   height: 12px;
   border-radius: 100%;
-  background: #ccc;
+  background: #fff;
   margin: 0 10px;
 }
 #slide1:checked ~ #bullets label:nth-child(1),
 #slide2:checked ~ #bullets label:nth-child(2),
 #slide3:checked ~ #bullets label:nth-child(3),
 #slide4:checked ~ #bullets label:nth-child(4) {
-  background: #444;
+  background: #aaa;
 }
 @media screen and (max-width: 900px) {
   #slide1:checked ~ #controls label:nth-child(2),

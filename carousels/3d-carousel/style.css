@@ -1,5 +1,5 @@
 .page-content {
-  min-height: calc(100vh - 70px);
+  min-height: calc(100vh - 60px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,7 @@
   top: 85px;
   pointer-events: none;
   white-space: nowrap;
-  background: linear-gradient(to bottom, #5a7d9c 30%, #e3f2fd);
+  background: linear-gradient(to bottom, #2a5298 30%, #e3f2fd);
   background-clip: text;
   color: transparent;
 }
@@ -110,7 +110,7 @@
 }
 
 .member-name {
-  color: #2d4a6e;
+  color: white;
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 10px;
@@ -136,7 +136,7 @@
 }
 
 .member-role {
-  color: #5a7d9c;
+  color: #aaa;
   font-size: 1.5rem;
   font-weight: 500;
   opacity: 0.8;
@@ -157,13 +157,13 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #1e4a6f;
+  background-color: #193261;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .dot.active {
-  background: #90a9b7;
+  background: #aaa;
   transform: scale(1.2);
 }
 
@@ -171,7 +171,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: #90a9b7;
+  background: #aaa;
   width: 43px;
   height: 43px;
   border-radius: 50%;
