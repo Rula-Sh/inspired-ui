@@ -1,70 +1,53 @@
-body {
-  margin: 60px 0 0;}
-
-nav {
-  display: flex;
-  justify-content: start;
-  align-items: center;
+.navbar {
   height: 60px;
-  background-color: #87b7d3;
   width: 100vw;
-  box-sizing: border-box;
-  padding: 0 0 0 20px;
+  display: flex;
+  align-items: center;
   gap: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
-  position: fixed;
+  padding: 16px 32px;
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
   line-height: normal;
+  list-style: none;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 100;
 }
 
-#carousels-container,
-#animations-container {
-  position: relative;
-}
-
-.title {
-  cursor: pointer;
+.title a {
   padding: 10px;
+  border-radius: 10px;
+}
+
+.container .title a {
   border-radius: 10px 10px 0 0;
 }
 
-#home-title:hover {
-  border-radius: 10px;
-  background-color: #0000008a;
-}
-
-span a {
-  color: white;
+.navbar a {
+  color: #1e3c72;
+  font-weight: 500;
   text-decoration: none;
 }
 
-ul {
-  list-style-type: none;
+.navbar a:hover {
   background-color: #0000008a;
-  padding: 0;
-  margin-top: 10px;
-  gap: 20px;
-  border-radius: 0 10px 10px 10px;
+  color: white;
 }
 
-#carousels-list,
-#animations-list {
-  position: absolute;
+ul {
   display: none;
+  position: absolute;
+  list-style-type: none;
+  gap: 20px;
+  padding: 0;
+  margin-top: 10px;
+  background-color: #0000008a;
+  border-radius: 0 10px 10px 10px;
 }
 
 li {
   padding: 20px 15px 15px;
   color: white;
-}
-
-ul a {
-  text-decoration: none;
-  white-space: nowrap;
 }
 
 a li:hover {
