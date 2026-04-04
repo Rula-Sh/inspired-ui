@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <a href="/#">Home</a>
       </span>
       <span class="title">
-        <a href="#featured">Featured</a>
+        <a href="/#featured">Featured</a>
       </span>
       <div class="container" id="carousels-container">
         <span class="title">
